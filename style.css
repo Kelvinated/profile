@@ -1,0 +1,90 @@
+.container {
+  margin: 0 auto; /* This automatically sets left/right margins */
+  width: 600px;
+}
+
+@media (max-width: 960px) {
+  /* For a screen < 960px, this CSS will be read */
+  .container {
+    width: 550px;
+  }
+}
+@media (max-width: 720px) {
+  /* For a screen < 720px, this CSS will be read */
+  .container {
+    width: 500px;
+  }
+}
+@media (max-width: 540px) {
+  /* For a screen < 540px, this CSS will be read */
+  .container {
+    width: 300px;
+  }
+}
+
+.icon-black {
+  font-size: 35px;
+  color: rgba(0, 0, 0, 0.3);
+}
+
+.icon-social {
+  font-size: 25px;
+  letter-spacing: 10px;
+}
+
+.card-white {
+  background: white;
+  padding-left: 50px;
+  padding-right: 50px;
+  padding-top: 40px;
+  padding-bottom: 30px;
+  border: 1px solid lightgrey;
+  margin: 30px;
+  border-radius: 10px;
+  box-shadow: 2px 2px 2px rgba(0,0,0,0.1);
+  text-align: center;
+}
+
+.card-white p {
+  line-height: 1.8;
+}
+
+.img-circle {
+  border-radius: 50%;
+  width: 130px;
+  box-shadow: 1px 1px 3px rgba(0,0,0,0.5);
+}
+
+body {
+  background: rgb(230,230,230);
+  color: rgba(0, 0, 0, 0.8);
+  font-family: 'Open Sans', sans-serif;
+  font-size: 14px;
+  font-weight: lighter;
+}
+
+
+.list-inline {
+  padding: 0;
+}
+
+.list-inline li {
+  display: inline-block;
+}
+
+h1, h2 {
+  font-family: 'Gloria Hallelujah', cursive;
+}
+
+h2 {
+  font-size: 20px;
+}
+
+a {
+  text-decoration: none;
+  color: #FC5424;
+}
+
+a:hover {
+  color: #C8353C;
+}
